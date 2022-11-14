@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Kanayo Chiemelu</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body bgcolor="e0ffff">
+        <h1>Kanayo Chiemelu</h1>
+        <table border="2" align="right">
+            <tr bgcolor=" #ffd792">
+                <th colspan="2">Kanayo Chiemelu</th>
+            </tr>
+            <tr>    
+                <td colspan="2" align="center"><img src="d:/paginahtml/imagenes/Kanayo Chiemelu.jpg"></td>
+            </tr>
+            <tr>
+                <th colspan="2" bgcolor=" #ffd792">Información Profesional</th>
+            </tr>
+            <tr>
+                <th>Ocupacion</th>
+                <td>Actor</td>
+            </tr>
+        </table>
+        <h1>Biográfica</h1>
+        <p>
+            No se encontro la bigrafia del actriz.
+        </p>
+        <h3>Conocido por</h3>
+        <ul>
+            <li>Pérdidos como Africán Man</li>
+            <li>Lágrimas del sol como General Mustafa Yakubu</li>
+        </ul>
+        <form name="formulario_datos" id="formulario_datos" action="envio.php" method="get" >
+            <fieldset form="formulario_datos" name="grupo_datos_personales">
+                <legend> Datos Personales </legend>
+                <label for="nombre" form="formulario_datos">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" value="" placeholder="Teclee nombre..."><br>
+                <label for="telefono" form="formulario_datos">Telefono: </label>
+                <input type="text" name="telefono" id="localidad" value="" placeholder="Teclee telefono..."><br>
+            </fieldset>
+            <br> Comentarios... <br>
+            <textarea name="comentarios" rows="7" cols="70" placeholder="Teclee sus comentarios sobre el actor o actriz de la pelicula"></textarea>
+            <input type="submit" name="enviar" value="Enviar Datos...">
+        </form>
+    </body>
+</html>
