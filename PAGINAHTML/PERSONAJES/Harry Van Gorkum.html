@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Harry Van Gorkum</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body bgcolor="e0ffff">
+        <h1>Harry Van Gorkum</h1>
+        <table border="2" align="right">
+            <tr bgcolor=" #ffd792">
+                <th colspan="2">Harry Van Gorkumc</th>
+            </tr>
+            <tr>    
+                <td colspan="2" align="center"><img src="d:/paginahtml/imagenes/Harry Van Gorkum.jpg"></td>
+            </tr>
+            <tr>    
+                <th colspan="2" bgcolor=" #ffd792">Informacion personal</th>
+            </tr>
+            <tr>    
+                <th>Nacimiento</th>
+                <td>Siglo XX Londres </td>
+            </tr>
+            <tr>
+                <th>Nacionalidad</th>
+                <td>Estadounidense <br>
+                    Británico </td>
+            </tr>
+            <tr>
+                <th colspan="2" bgcolor=" #ffd792">Educación</th>
+            </tr>
+            <tr>
+                <th>Educado en</th>
+                <td>Universidad de Lancaster</td>
+            </tr>
+            <tr>
+                <th colspan="2" bgcolor=" #ffd792">Información Profesional</th>
+            </tr>
+            <tr>
+                <th>Ocupacion</th>
+                <td>Actor <br>
+                    Actor de voz <br>
+                    Productor</td>
+            </tr>
+        </table>
+        <p>
+            Harry Gorkum (Londres, Inglaterra) es un actor inglés nacionalizado estadounidense.
+        </p>
+        <h2>Primeros años y Carrera</h2>
+        <p>
+            Gorkum nació en Londres, estudió en 1980 en la Universidad de Lancaster y comenzó su carrera como actor, en teatros de Inglaterra. Poco después, se trasladó a los EE.UU, donde comenzó a hacer pequeñas apariciones en series de televisión y películas.
+        </p>
+        <h2>Filmografía</h2>
+        <ul>
+            <li>1990-1991	Brush Strokes	Vincente Morella	5 episodios</li>
+            <li>1995	First Time Out	Freddy Tudor	6 episodios</li>
+            <li>1996-1998	La Niñera	Nigel Sheffield	3 episodios</li>
+            <li>1998	Hamilton	Seaman Jones	Película</li>
+            <li>2000-2001	The Fearing Mind	Bill Fearing	13 episodios</li>
+            <li>2001	Firetrap	Roger	Película</li>
+            <li>2009	La Pantera Rosa 2	Conductor	Película</li>
+            <li>2011	Estoy en la Banda	Eddie Nova	1 episodio</li>
+            <li>13	Happily Divorced	Neil	4 episodios</li>
+        </ul>
+        <form name="formulario_datos" id="formulario_datos" action="envio.php" method="get" >
+            <fieldset form="formulario_datos" name="grupo_datos_personales">
+                <legend> Datos Personales </legend>
+                <label for="nombre" form="formulario_datos">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" value="" placeholder="Teclee nombre..."><br>
+                <label for="telefono" form="formulario_datos">Telefono: </label>
+                <input type="text" name="telefono" id="localidad" value="" placeholder="Teclee telefono..."><br>
+            </fieldset>
+            <br> Comentarios... <br>
+            <textarea name="comentarios" rows="7" cols="70" placeholder="Teclee sus comentarios sobre el actor o actriz de la pelicula"></textarea>
+            <input type="submit" name="enviar" value="Enviar Datos...">
+        </form>
+    </body>
+</html>

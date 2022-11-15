@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pierrino Mascarino</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Pierrino Mascarino</h1>
+        <table border="2" align="right">
+            <tr bgcolor=" #ffd792">
+                <th colspan="2">Pierrino Mascarino</th>
+            </tr>
+            <tr>    
+                <td colspan="2" align="center"><img src="d:/paginahtml/imagenes/Pierrino Mascarino.jpg"></td>
+            </tr>
+            <tr>
+                <th>Nacido</th>
+                <td>22 de septiembre de 1939 <br>
+                    Italia</td>
+            </tr>
+            <tr>
+                <th>Murio</th>
+                <td>2 de junio de 2017 <br> (77 años)</td>
+            </tr>
+            <tr>
+                <th colspan="2" bgcolor=" #ffd792">Información Profesional</th>
+            </tr>
+            <tr>
+                <th>Ocupacion</th>
+                <td>Actor</td>
+            </tr>
+        </table>
+        <p>
+            Pierrino Mascarino (22 de septiembre de 1939 - 2 de junio de 2017) fue un actor italiano quizás mejor conocido por su actuación principal en la película Uncle Nino.
+        </p>
+        <p>
+            Mascarino también fue conocido por películas y series de televisión como Tears of the Sun , Nip/Tuck , Everybody Loves Raymond y Aaron's Way .
+        </p>
+        <h2>Filmografía</h2>
+        <ul>
+            <li>1972	no es facil	T</li>
+            <li>1981	Confesiones verdaderas	Sospechar</li>
+            <li>1981	Guerras de gánsteres	Pablo Rica</li>
+            <li>1984	Perdido en acción	Jacques</li>
+            <li>1985	Alquiler de verano	Maitre D'</li>
+            <li>1986	Consigamos a harry	Pinilla</li>
+            <li>1996	periscopio abajo	Capitán de arrastre</li>
+            <li>1998	Volver a Incluso	Kráchek</li>
+            <li>1999	Vendetta	antonio marchesi</li>
+            <li>2000	Todo el mundo quiere a Raymond	Jorge</li>
+            <li>2002	El cuarto tenor	roberto</li>
+            <li>2003	Lágrimas del sol	Padre Gianni</li>
+            <li>2003	tio nino	tio nino</li>
+            <li>2005	valor/valor	Médico</li>
+            <li>2007	vidrio roto	Médico</li>
+        </ul>
+        <form name="formulario_datos" id="formulario_datos" action="envio.php" method="get" >
+            <fieldset form="formulario_datos" name="grupo_datos_personales">
+                <legend> Datos Personales </legend>
+                <label for="nombre" form="formulario_datos">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" value="" placeholder="Teclee nombre..."><br>
+                <label for="telefono" form="formulario_datos">Telefono: </label>
+                <input type="text" name="telefono" id="localidad" value="" placeholder="Teclee telefono..."><br>
+            </fieldset>
+            <br> Comentarios... <br>
+            <textarea name="comentarios" rows="7" cols="70" placeholder="Teclee sus comentarios sobre el actor o actriz de la pelicula"></textarea>
+            <input type="submit" name="enviar" value="Enviar Datos...">
+        </form>
+    </body>
+</html>
